@@ -8,6 +8,7 @@ export default (props) => {
       props.exercises.map(exercise => {
         return (
           <Card
+            key = {exercise.id}
             img = {exercise.img}
             title = {exercise.title}
             description = {exercise.description}
