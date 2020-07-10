@@ -12,6 +12,8 @@ export default (props) => {
             img = {exercise.img}
             title = {exercise.title}
             description = {exercise.description}
+            leftColor = {exercise.leftColor}
+            rightColor = {exercise.rightColor}
           />
         ) 
       })
