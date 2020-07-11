@@ -11,7 +11,7 @@ export default (props) => {
       }
     >
       <div className="card__image-container">
-        <img src={props.img} class="card__image" alt="iamgen de card"/> 
+        <img src={props.img} className="card__image" alt="imagen de card"/> 
       </div>
       <div className="card__text-content">
         <h1 className="card__title">{props.title}</h1>
